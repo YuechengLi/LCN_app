@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/prompt_init_bgm111"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal = "true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Blue Gecko Setting"
+        />
+
+    <CheckBox android:id="@+id/checkbox_motionsensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motion Sensor(MPU9250)"
+        android:checked="true"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox android:id="@+id/checkbox_barometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barometer(BME280)"
+        android:checked="true"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox android:id="@+id/checkbox_optical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Optical Sensor(SI1147)"
+        android:checked="true"
+        android:onClick="onCheckboxClicked"/>
+
+</LinearLayout>

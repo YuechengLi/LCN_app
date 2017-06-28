@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="edu.pitt.ycli.test_hello.image_tools">
+
+
+
+    <Button
+        android:id="@+id/imagemani"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:onClick="Start_ImageManipulation"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:text="Image Manipulation"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/faceDect"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="Start_FaceDect"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:text="Face Detection"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/imagemani"
+        android:layout_alignStart="@+id/imagemani" />
+
+    <Button
+        android:id="@+id/plateDect"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="Start_PlateDect"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:text="Plate Detection"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/faceDect"
+        android:layout_alignStart="@+id/faceDect" />
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.pitt.ycli.test_hello.data_logger_top"
+    tools:showIn="@layout/activity_data_logger_top">
+
+
+
+    <Button
+        android:id="@+id/button_data_logger"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal = "true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="Start_Data_Logger"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:text="Data_Logger(MSP430)\n(Pump or eButton\n MCU mode 3)"/>
+
+    <Button
+        android:id="@+id/button_data_logger_bgm111"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal = "true"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:onClick="Start_Data_Logger_bgm111"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:text="Data_Logger(BGM111)" />
+
+    <Button
+        android:id="@+id/button_data_logger_local"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal = "true"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:onClick="Start_Data_Logger_local"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:text="Local Data_logger" />
+
+</LinearLayout>

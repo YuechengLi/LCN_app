@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.pitt.ycli.test_hello.Data_Logger">
+
+
+    <item
+        android:id="@+id/action_Init_MSP430"
+        android:orderInCategory="100"
+        android:title="@string/action_Init_MSP430"
+        app:showAsAction="always" />
+
+
+</menu>

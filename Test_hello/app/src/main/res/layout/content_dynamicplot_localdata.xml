@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.pitt.ycli.test_hello.dynamicplot_localdata"
+    tools:showIn="@layout/activity_dynamicplot_localdata">
+
+
+
+    <!--<com.androidplot.xy.XYPlot-->
+        <!--style="@style/simple_xy"-->
+        <!--android:id="@+id/dynamicXYPlot"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--androidplot.renderMode="use_background_thread"-->
+        <!--ap:label="A Dynamic XY Plot"-->
+        <!--ap:domainLabel="Domain"-->
+        <!--ap:rangeLabel="Range"-->
+        <!--ap:legendTextSize="15sp"-->
+        <!--ap:legendIconHeight="15dp"-->
+        <!--ap:legendIconWidth="15dp"-->
+        <!--ap:legendHeight="25dp"-->
+        <!--ap:legendAnchorPosition="right_bottom"/>-->
+
+</LinearLayout>

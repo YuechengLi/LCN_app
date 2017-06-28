@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">LCN</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_About">About</string>
+    <string name="action_Init_MSP430">Init MSP430...</string>
+    <string name="action_conect_bgm111">Connect BlueGecko...</string>
+    <string name="BT_on">Turn on bluetooth</string>
+    <string name="BT_off">Turn off bluetooth</string>
+    <string name="List">List Paired Devices</string>
+    <string name="hint_message_paired_devices">No Paired Devices</string>
+    <string name="title_activity_data__logger">LCN: Data_Logger(MSP430)</string>
+    <string name="title_activity_data_logger_bgm111">LCN: Data_logger(BGM111)</string>
+    <string name="title_activity_data_logger_local">LCN: Local Data_logger</string>
+    <string name="title_activity_image_tools">Image Tools</string>
+    <string name="title_activity_food_rec">LCN: Food Recognition</string>
+    <string name="title_activity_lp_ebutton">LCN: LowPower eButton</string>
+    <string name="title_activity_dynamicplot_localdata">LCN: Live local sensor data</string>
+    <string name="title_activity_image_mani">LCN: Image Manipulation</string>
+    <string name="title_activity_image_facedet">LCN: Face Detection</string>
+
+    <string name="plotdata">Plot</string>
+    <string-array name="data_options">
+        <item>Accelerometer</item>
+        <item>Gyroscope</item>
+        <item>Magnetometer</item>
+        <item>Pressure</item>
+        <item>Lightness</item>
+    </string-array>
+    <string name="title_activity_data_logger_top">Data Logger(s)</string>
+
+    <string-array name="data_options_msp430">
+        <item>Accelerometer</item>
+        <item>Gyroscope</item>
+        <item>Magnetometer</item>
+        <item>H Magnetometer</item>
+        <item>Temperature</item>
+        <item>Pressure</item>
+        <item>V-IR</item>
+        <item>Proximity</item>
+    </string-array>
+
+    <string-array name="data_options_bgm111">
+        <item>Accelerometer</item>
+        <item>Gyro</item>
+        <item>Mag</item>
+        <item>Temperature</item>
+    </string-array>
+</resources>

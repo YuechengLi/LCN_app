@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.pitt.ycli.test_hello.Data_Logger"
+    tools:showIn="@layout/activity_data__logger">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/noShowsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+<!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </View>
+
+            <Switch
+                android:id="@+id/bluetooth_sw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bluetooth"
+                android:textColor="#00285C"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </View>
+
+            <Button
+                android:id="@+id/button_sendInitialize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="data_logger_init"
+                android:text="Init Dev(MSP430)..."
+                android:textAllCaps="false"
+                android:textColor="#00285C" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </View>
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </View>
+
+            <Switch
+                android:id="@+id/showdata_msp_sw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show data"
+                android:textAllCaps="false"
+                android:textColor="#00285C"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </View>
+
+            <Switch
+                android:id="@+id/plotdata_msp_sw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal = "true"
+                android:layout_gravity="center"
+                android:text="Plot live data"
+                android:textAllCaps="false"
+                android:textColor="#00285C"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </View>
+
+        </LinearLayout>
+    <!--
+        <Button
+            android:id="@+id/button_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="BT_list"
+            android:text="@string/List"
+            android:textColor="#00285C" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:textColor="#CDB77C" >
+
+        </ListView>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal = "true"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:text="Sensor Data (MSP430):"
+            android:textColor="#d31a1a" />
+
+        <TextView
+            android:id="@+id/MotionData_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#CDB77C"
+            android:layout_weight="0.33">
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/chart_msp430"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.59"/>
+
+    </LinearLayout>
+</RelativeLayout>
